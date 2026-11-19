@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="{% static 'salazar/Estilos.css' %}">
+
+
+    <link rel="stylesheet" href="{% static 'salazar/estilos.css' %}">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>REGISTRA TUS DATOS</h1>
+
+        <!-- MENÚ DE NAVEGACIÓN -->
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#">registro</a></li>
+                <li><a href="#">dos</a></li>
+                <li><a href="#">tres</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<form method="POST">
+    <label>Nombre:</label>
+    <input type="text" name="nombre" placeholder="Escribe tu nombre..." required 
+    <label>Apellido Paterno:</label>
+    <input type="text" name="apellidop" placeholder="Escribe tu apellido Paterno" required>
+    <label>Apellido Materno:</label>
+    <input type="text" name="apellidom" placeholder="Escribe tu apellido Materno">
+    <label>Edad:</label>
+    <input type="number" name="edad" min="14" max="25" placeholder="Escribe tu edad..." required>
+    <button> type="submit">Guardar</button>
+</form>    
+
+    
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>ESTE TRABAJO FUE HECHO POR SHARON HERANDI SALAZAR</p>
+    </footer>
+
+</body>
+</html>

@@ -1,21 +1,21 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #FCB8DD;
-    color: #E69AA2;
+    background-color: #FFCDC2;
+    color: #FFBDDF;
 }
 
 /* ENCABEZADO */
 header {
-    background-color:#ffcccc;;
-    color: #E69AA2;
+    background-color: #FEFFAB;
+    color: #FFBDDF;
     text-align: center;
     padding: 20px;
 }
 
 /* MENÚ */
 nav {
-    background-color: #F6FCB8;
+    background-color: #FFCDC2;
     padding: 10px;
 }
 nav ul {
@@ -29,7 +29,7 @@ nav li {
 }
 
 nav a {
-    color: #E69AA2;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 .bienvenida h2 {
-    color: #E69AA2;
+    color: #FFBDDF;
 }
 
 .bienvenida p {
@@ -58,8 +58,34 @@ nav a:hover {
 
 /* PIE DE PÁGINA */
 footer {
-    background-color: #F6FCB8;
-    color: #E69AA2;
+    background-color: #FEFFAB;
+    color: #FFBDDF;
     text-align: center;
     padding: 15px;
+}
+form {
+    background-color: #FFBDDF;
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+input, select, textarea {
+    width: 95%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #FEFFAB;
+}
+button {
+    background-color: #FFCDC2;
+    color: plum;
+    padding: 10px;
+    border: none;
+    width: 95px;
+    cursor: pointer;
+}
+label {
+    background-color: rgb(248, 246, 246);
+
 }
